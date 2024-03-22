@@ -1,4 +1,5 @@
 ### WIN OS ###
+/.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -6,7 +7,7 @@
 *.iws
 *.iml
 *.ipr
-/.idea/
+
 /skilloAutomation13.iml
 /out/*
 
@@ -16,7 +17,7 @@ target/
 !**/src/test/**/target/
 
 ### UNIX OS ###
-\.idea/
+\.idea\
 \skilloAutomation13.iml
 \out\*
 target\
@@ -30,3 +31,4 @@ target\
 !**\src\test\**\target\
 
 .DS_Store
+
