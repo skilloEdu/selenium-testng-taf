@@ -1,4 +1,4 @@
-package testNgAssertions;
+package testngDemos.testNgAssertions;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -15,6 +15,7 @@ public class SoftAssertionTestNGDemo {
 
         // Validate all collected assertions
         softAssert.assertAll(); // If any assertion fails – this is the line where the code will stop its execution.
+
 
     }
 }

@@ -3,15 +3,14 @@
 <suite name="ProvideDEmosForParams" verbose="1" parallel="methods" thread-count="2">
     <test name="ProvideParamsDemo">
         <classes>
-            <class name="dataProviders.DataProviderFromXMLDemo">
+            <class name="testngDemos.dataProviders.DataProviderFromXMLDemo">
                 <methods>
                     <include name="provideSingleParamDemo">
                         <parameter name="fullName" value="Vasko Vasilev"></parameter>
                     </include>
                 </methods>
             </class>
-
-            <class name="dataProviders.DataProviderFromXMLDemo">
+            <class name="testngDemos.dataProviders.DataProviderFromXMLDemo">
                 <methods>
                     <include name="testMultiParameters">
                         <parameter name="firstName" value="Dragancho"></parameter>

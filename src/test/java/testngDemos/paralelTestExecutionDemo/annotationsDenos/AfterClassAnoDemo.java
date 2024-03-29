@@ -1,9 +1,7 @@
-package annotationsDenos;
+package testngDemos.paralelTestExecutionDemo.annotationsDenos;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-
-import static utils.TestFormatting.provideFormatForTest;
 
 public class AfterClassAnoDemo extends BasicTestngAnnotationDemos {
     @AfterClass

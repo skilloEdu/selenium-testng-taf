@@ -1,4 +1,4 @@
-package dataProviders;
+package testngDemos.dataProviders;
 
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;

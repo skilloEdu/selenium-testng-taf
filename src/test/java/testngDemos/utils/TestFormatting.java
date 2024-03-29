@@ -1,4 +1,4 @@
-package utils;
+package testngDemos.utils;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;

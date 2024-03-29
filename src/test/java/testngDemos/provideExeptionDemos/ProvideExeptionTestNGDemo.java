@@ -1,7 +1,7 @@
-package provideExeptionDemos;
+package testngDemos.provideExeptionDemos;
 
 import org.testng.annotations.Test;
-import utils.TestFormatting;
+import testngDemos.utils.TestFormatting;
 
 public class ProvideExeptionTestNGDemo extends TestFormatting {
 

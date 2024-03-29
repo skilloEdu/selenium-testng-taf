@@ -1,4 +1,4 @@
-package paralelTestExecutionDemo;
+package testngDemos.paralelTestExecutionDemo;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

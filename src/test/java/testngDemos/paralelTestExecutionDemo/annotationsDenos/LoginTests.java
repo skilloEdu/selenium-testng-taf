@@ -1,8 +1,7 @@
-package annotationsDenos;
+package testngDemos.paralelTestExecutionDemo.annotationsDenos;
 
-import basicTestDemo.BasicTestDemonstrationClass;
+import testngDemos.paralelTestExecutionDemo.basicTestDemo.BasicTestDemonstrationClass;
 import org.testng.annotations.*;
-import utils.TestFormatting;
 
 public class LoginTests extends BasicTestDemonstrationClass {
 

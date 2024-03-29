@@ -1,9 +1,9 @@
-package basicTestDemo;
+package testngDemos.paralelTestExecutionDemo.basicTestDemo;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import utils.TestFormatting;
+import testngDemos.utils.TestFormatting;
 
 public class BasicTestDemonstrationClass extends TestFormatting {
 
@@ -15,12 +15,10 @@ public class BasicTestDemonstrationClass extends TestFormatting {
         System.out.println("Chrome settings are provided");
     }
 
-
     @BeforeMethod
     public void generateUserNameDataForLoginTestCases() {
         provideFormatForTest("BEFORE methoid", ">");
     }
-
     @AfterClass
     public void tearDown() {
 
