@@ -1,4 +1,4 @@
-package seleniumDemos.myfirstseltest;
+package seleniumTests.myfirstseltest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

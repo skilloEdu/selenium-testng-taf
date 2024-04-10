@@ -1,4 +1,4 @@
-package seleniumDemos.registration;
+package seleniumTests.registration;
 
 public class RegistrationTests {
 

@@ -1,4 +1,4 @@
-package seleniumDemos.login;
+package seleniumTests.login;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -91,6 +91,9 @@ public class LoginTests {
                             expectedRememberMeLabelText);
 
         consoleLoggerForAMatch(actualRememberMeLabelText,expectedRememberMeLabelText);
+
+        WebElement checkBoxRememberMe = driver.findElement(By.xpath("//input[contains(@formcontrolname,'rememberMe')]"));
+
 
         //.........................................................................
         System.out.println("Step: 3.5. -> Verify remember me check box is shown is per requirements ");
